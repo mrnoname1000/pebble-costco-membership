@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "hello-poco-qrcode.",
+      "dependencies": {
+        "@moddable/pebbleproxy": "^0.1.8",
+        "@rebble/clay": "^1.0.8",
+      },
+    },
+  },
+  "packages": {
+    "@moddable/pebbleproxy": ["@moddable/pebbleproxy@0.1.8", "", {}, "sha512-Y378u0vM71eskflKOa8xTZ0oVOyJbDRBScZiR1uez+RP5u1KOocBrL+bEShOjVkipfVZNlQnC5DGpzSJhX6O7g=="],
+
+    "@rebble/clay": ["@rebble/clay@1.0.8", "", {}, "sha512-nLZes039sniW1Qx24AXirk1EH+JXNKSX5fAiJYObPL1znt83IGLIulZvDWXvM+HCmaSnjPheYdxvspr3CZicYQ=="],
+  }
+}
