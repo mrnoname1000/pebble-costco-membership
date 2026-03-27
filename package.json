@@ -1,0 +1,31 @@
+{
+    "author": "Moddable",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "hello-poco-qrcode.",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "JS - Poco QRCode",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "dummy"
+        ],
+        "projectType": "moddable",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery"
+        ],
+        "uuid": "29098dd2-c737-4123-838d-444e724d0a68",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
