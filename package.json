@@ -1,6 +1,8 @@
 {
     "author": "Moddable",
-    "dependencies": {},
+    "dependencies": {
+        "@rebble/clay": "^1.0.8"
+    },
     "keywords": [
         "pebble-app"
     ],
@@ -12,7 +14,8 @@
         "displayName": "JS - Poco QRCode",
         "enableMultiJS": true,
         "messageKeys": [
-            "dummy"
+            "MembershipId[32]",
+            "AndroidId[16]"
         ],
         "projectType": "moddable",
         "resources": {
@@ -20,7 +23,8 @@
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "emery"
+            "emery",
+            "gabbro"
         ],
         "uuid": "29098dd2-c737-4123-838d-444e724d0a68",
         "watchapp": {
