@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "hello-poco-qrcode.",
+      "dependencies": {
+        "@rebble/clay": "^1.0.8",
+      },
+    },
+  },
+  "packages": {
+    "@rebble/clay": ["@rebble/clay@1.0.8", "", {}, "sha512-nLZes039sniW1Qx24AXirk1EH+JXNKSX5fAiJYObPL1znt83IGLIulZvDWXvM+HCmaSnjPheYdxvspr3CZicYQ=="],
+  }
+}
