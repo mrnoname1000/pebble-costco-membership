@@ -53,7 +53,7 @@ function build_qr_data(membership_id, android_id) {
 
 function main() {
   const code = qrCode({
-    input: build_qr_data(settings["MembershipId"], settings["AndroidId"]),
+    input: build_qr_data("112039651736", "ecf5c794a8d10099"),
     bitmap: 32,
     fit: Math.min(render.width, render.height) - 10
   });

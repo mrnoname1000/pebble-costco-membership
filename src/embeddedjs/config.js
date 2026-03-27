@@ -18,39 +18,18 @@ module.exports = [
         type: "text",
         messageKey: "MembershipId",
         label: "Membership ID",
-        defaultValue: false,
+        defaultValue: "112039651736",
       },
       {
         type: "text",
         messageKey: "AndroidId",
         label: "ANDROID_ID",
-        defaultValue: false,
+        defaultValue: "ecf5c794a8d10099",
       },
-    ]
-  },
-  {
-    type: "section",
-    items: [
-      {
-        type: "heading",
-        defaultValue: "Preferences",
-      },
-      {
-        type: "toggle",
-        messageKey: "TemperatureUnit",
-        label: "Use Fahrenheit",
-        defaultValue: false,
-      },
-      {
-        type: "toggle",
-        messageKey: "ShowDate",
-        label: "Show Date",
-        defaultValue: true,
-      }
     ]
   },
   {
     type: "submit",
     defaultValue: "Save Settings",
-  }
+  },
 ];
